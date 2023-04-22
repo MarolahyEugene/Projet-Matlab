@@ -1,0 +1,93 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="D:\EXAMEN\MATLAB_PROJECT\Utilitaire pour image.prj" location="D:\EXAMEN\MATLAB_PROJECT" name="Utilitaire pour image" target="target.mlapps" target-name="Package App">
+    <param.appname>Utilitaire pour image</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>D:\EXAMEN\MATLAB_PROJECT</param.output>
+    <param.guid>ff441820-2f4e-4f7b-bbe0-698f3c7dabe1</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\projet_utilitaire.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\accueil.png</file>
+      <file>${PROJECT_ROOT}\aide.png</file>
+      <file>${PROJECT_ROOT}\apropos.png</file>
+      <file>${PROJECT_ROOT}\deconnect.png</file>
+      <file>${PROJECT_ROOT}\icons8_windows8_48px.png</file>
+      <file>${PROJECT_ROOT}\retour.png</file>
+      <file>${PROJECT_ROOT}\showMenu.png</file>
+      <file>${PROJECT_ROOT}\sortie.png</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\EXAMEN" name="MATLAB_PROJECT" optional="false">D:\EXAMEN\MATLAB_PROJECT</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
